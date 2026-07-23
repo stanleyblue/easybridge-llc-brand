@@ -121,7 +121,7 @@ export default function Home() {
             <a href="https://icewind-replit.replit.app/" target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-20">
               <span className="sr-only">Visit Icewind</span>
             </a>
-            <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 transition-opacity group-hover:opacity-40" />
+            <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/60 to-transparent opacity-60 transition-opacity group-hover:opacity-40" />
             <motion.img 
               initial={{ scale: 1.05 }}
               whileHover={{ scale: 1 }}
@@ -130,12 +130,10 @@ export default function Home() {
               alt="Icewind Website Preview" 
               className="w-full h-full object-cover object-top"
             />
-            <div className="absolute bottom-8 left-8 right-8 z-10 flex justify-between items-end">
-              <div>
-                <p className="text-white font-mono text-xs uppercase tracking-widest mb-2 text-cyan-400">Personal Cooling Device</p>
-                <p className="text-white/80 max-w-md text-sm md:text-base">Our first vertical focusing on high-performance handheld cooling technology. Bold, dark, and electric.</p>
-              </div>
-            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 pt-5 border-t border-border">
+            <span className="font-mono text-xs uppercase tracking-widest text-cyan-600">Personal Cooling Device</span>
+            <p className="text-foreground/60 text-sm font-mono leading-relaxed">Our first vertical focusing on high-performance handheld cooling technology. Bold, dark, and electric.</p>
           </div>
         </div>
       </section>
