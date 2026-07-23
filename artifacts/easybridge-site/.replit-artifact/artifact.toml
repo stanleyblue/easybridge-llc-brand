@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Easybridge Digital Commerce"
+version = "1.0.0"
+id = "artifacts/easybridge-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22271
+
+[services.development]
+run = "pnpm --filter @workspace/easybridge-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/easybridge-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/easybridge-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22271"
+BASE_PATH = "/"
