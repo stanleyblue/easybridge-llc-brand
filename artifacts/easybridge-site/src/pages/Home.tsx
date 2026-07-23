@@ -28,7 +28,7 @@ export default function Home() {
           <a href="#approach" className="hover:text-primary transition-colors">Approach</a>
         </nav>
         <div className="flex items-center gap-4 text-foreground/60">
-          <a href="#" className="hover:text-primary transition-colors"><SiX className="w-4 h-4" /></a>
+          <a href="https://x.com/Icewindpi" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors"><SiX className="w-4 h-4" /></a>
           <a href="#" className="hover:text-primary transition-colors"><Linkedin className="w-4 h-4" /></a>
         </div>
       </header>
@@ -225,7 +225,7 @@ export default function Home() {
             </div>
             
             <div className="grid grid-cols-2 gap-x-12 gap-y-4 font-mono text-sm uppercase tracking-widest">
-              <a href="#" className="flex items-center gap-3 hover:text-primary transition-colors py-2"><SiX className="w-5 h-5" /> Twitter/X</a>
+              <a href="https://x.com/Icewindpi" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-primary transition-colors py-2"><SiX className="w-5 h-5" /> Twitter/X</a>
               <a href="#" className="flex items-center gap-3 hover:text-primary transition-colors py-2"><Linkedin className="w-5 h-5" /> LinkedIn</a>
               <a href="#" className="flex items-center gap-3 hover:text-primary transition-colors py-2"><Youtube className="w-5 h-5" /> YouTube</a>
               <a href="#" className="flex items-center gap-3 hover:text-primary transition-colors py-2"><Instagram className="w-5 h-5" /> Instagram</a>
