@@ -131,8 +131,8 @@ export default function Home() {
               className="w-full h-full object-cover object-top"
             />
           </div>
-          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 pt-5 border-t border-border">
-            <span className="font-mono text-xs uppercase tracking-widest text-cyan-600">Personal Cooling Device</span>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 mt-6 pt-5 border-t border-border bg-background">
+            <span className="font-mono text-xs uppercase tracking-widest text-cyan-600 shrink-0">Personal Cooling Device</span>
             <p className="text-foreground/60 text-sm font-mono leading-relaxed">Our first vertical focusing on high-performance handheld cooling technology. Bold, dark, and electric.</p>
           </div>
         </div>
