@@ -18,16 +18,16 @@ export default function Home() {
       <Noise />
       
       {/* Navigation */}
-      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 mix-blend-difference text-white">
-        <div className="font-sans font-bold text-xl tracking-tight">
-          EASYBRIDGE<span className="text-primary">.</span>
-        </div>
-        <nav className="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-widest">
+      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-3 bg-background/90 backdrop-blur-md border-b border-border/30">
+        <a href="#" className="flex items-center">
+          <img src="/logo.png" alt="Easybridge" className="h-9 w-auto" />
+        </a>
+        <nav className="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-widest text-foreground/60">
           <a href="#mission" className="hover:text-primary transition-colors">Mission</a>
           <a href="#brands" className="hover:text-primary transition-colors">Brands</a>
           <a href="#approach" className="hover:text-primary transition-colors">Approach</a>
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 text-foreground/60">
           <a href="#" className="hover:text-primary transition-colors"><SiX className="w-4 h-4" /></a>
           <a href="#" className="hover:text-primary transition-colors"><Linkedin className="w-4 h-4" /></a>
         </div>
