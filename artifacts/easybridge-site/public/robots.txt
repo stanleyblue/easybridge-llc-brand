@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://easybridge.best/sitemap.xml

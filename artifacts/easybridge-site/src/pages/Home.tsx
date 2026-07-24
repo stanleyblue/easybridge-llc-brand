@@ -108,7 +108,7 @@ export default function Home() {
               <h2 className="text-5xl md:text-7xl font-bold tracking-tighter">ICEWIND<sup className="text-2xl md:text-3xl text-foreground/50">®</sup></h2>
             </div>
             <a 
-              href="https://icewind-replit.replit.app/" 
+              href="https://www.icewind.store/"
               target="_blank" 
               rel="noopener noreferrer"
               className="group flex items-center gap-3 font-mono text-sm uppercase tracking-widest hover:text-primary transition-colors"
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
 
           <div className="relative group block overflow-hidden bg-[#0A0A0A] aspect-[16/9] md:aspect-[21/9]">
-            <a href="https://icewind-replit.replit.app/" target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-20">
+            <a href="https://www.icewind.store/" target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-20">
               <span className="sr-only">Visit Icewind</span>
             </a>
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/60 to-transparent opacity-60 transition-opacity group-hover:opacity-40" />
