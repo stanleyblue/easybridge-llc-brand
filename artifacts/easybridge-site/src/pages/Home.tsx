@@ -57,7 +57,7 @@ export default function Home() {
             </h1>
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 border-t border-foreground/10 pt-6">
               <p className="font-mono text-sm md:text-base max-w-md text-foreground/80 leading-relaxed">
-                An independent, AI-native e-commerce platform bringing premium Chinese manufacturing to everyday Western life.
+                A bridge to better living in a future-ready world. Living in step with tomorrow.
               </p>
               <div className="flex items-center gap-4">
                 <Button size="lg" className="rounded-none font-mono uppercase tracking-wider text-xs px-8 h-12" asChild>
